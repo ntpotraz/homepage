@@ -1,8 +1,59 @@
 .summary {
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-left: 3rem;
+  padding-right: 1.5rem;
 }
 
 .nathan {
-  max-width: 50vw;
+  width: min(50vw, 450px);
   border-radius: 20px;
+}
+
+.summaryInfo {
+  padding: 10px;
+  max-width: 80ch;
+  min-width: 40ch;
+  border-radius: 20px;
+  box-shadow: darkgray 5px 10px 10px;
+}
+
+.links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.link {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.link > a {
+  color: inherit;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #FF992C;
+  border-radius: 14px;
+  padding: 0.5rem;
+  width: 140px;
+  box-shadow: lightgray 3px 3px 5px;
+  will-change: transform;
+  transition: 0.5s transform cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.link > a:hover {
+  transform: scale(1.05);
+  filter: brightness(1.15);
 }
