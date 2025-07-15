@@ -3,24 +3,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 2rem;
-  padding-left: 3rem;
-  padding-right: 1.5rem;
 }
 
 .nathan {
-  width: min(50vw, 450px);
+  width: min(40vw, 400px);
   border-radius: 20px;
 }
 
 .summaryInfo {
-  padding: 10px;
   border-radius: 20px;
   box-shadow: darkgray 5px 10px 10px;
+  width: min(600px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sumText {
   max-width: 50ch;
+  margin: 0 0 10px 0;
 }
 
 .links {
@@ -28,13 +32,12 @@
   padding: 0;
   list-style: none;
   display: flex;
-  flex-direction: column;
-  justify-content: start;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .link {
   margin-bottom: 1rem;
-  margin-left: 1rem;
   font-size: 1.5rem;
   display: flex;
   gap: 1rem;
