@@ -15,10 +15,12 @@
 
 .summaryInfo {
   padding: 10px;
-  max-width: 80ch;
-  min-width: 40ch;
   border-radius: 20px;
   box-shadow: darkgray 5px 10px 10px;
+}
+
+.sumText {
+  max-width: 50ch;
 }
 
 .links {
