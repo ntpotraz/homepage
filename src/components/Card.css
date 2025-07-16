@@ -1,0 +1,86 @@
+.card {
+  width: 100%;
+  max-width: 600px;
+  min-width: 0; /* Prevents forced overflow */
+  height: 100%;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: lightgray 0 0 20px 10px;
+  will-change: transform;
+  transition: transform 100ms ease-out;
+  
+
+  /* Remove this */
+  margin-bottom: 50px;
+}
+
+.card:hover {
+  transform: scale(1.009);
+}
+
+.imageContainer {
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  height: 250px;
+  width: 100%;
+}
+
+.cardImage {
+  object-fit: cover;
+  object-position: 0 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.infoContainer {
+  padding: 1rem;
+}
+
+.webLink {
+  color: var(--main-color);
+}
+
+.cardTitle {
+  display: flex;
+  margin: 0.5rem 0;
+  font-size: 1.8rem;
+}
+
+.techStack {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cardBtns, .cardBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardBtns {
+  gap: 2rem;
+  color: white;
+}
+
+.cardBtn {
+  gap: 0.3rem;
+  color: inherit;
+  font-weight: bold;
+  font-size: 1.4rem;
+  background-color: var(--secondary-color);
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+  box-shadow: darkgray 0 5px 9px;
+  will-change: tranform;
+  transition: var(--btn-transform)
+}
+
+.cardBtn:hover {
+  color: inherit;
+  transform: var(--btn-scale);
+  filter: brightness(1.10);
+}

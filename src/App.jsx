@@ -1,17 +1,16 @@
-import { useState } from "react";
 import "./App.css";
 
-import HeaderBar from "./HeaderBar.jsx";
-import Summary from "./Summary.jsx";
-import Card from "./Card.jsx";
+import HeaderBar from "./components/HeaderBar.jsx";
+import Summary from "./components/Summary.jsx";
+import Card from "./components/Card.jsx";
+import Projects from "./components/Projects.jsx";
 
 function App() {
   return (
     <>
       <HeaderBar />
       <Summary />
-      <Card>
-      </Card>
+      <Projects />
     </>
   );
 }

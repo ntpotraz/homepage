@@ -1,5 +1,5 @@
 import "./Summary.css";
-import nathan from "./assets/nathan.jpg"
+import nathan from "../assets/nathan.jpg"
 
 const Summary = () => {
   return (

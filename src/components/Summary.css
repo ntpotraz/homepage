@@ -27,6 +27,7 @@
   max-width: 50ch;
   margin: 0 0 10px 0;
   padding: 0 0.5rem;
+  text-align: center;
 }
 
 .links {
@@ -51,16 +52,16 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #FF992C;
+  background-color: var(--main-color);
   border-radius: 14px;
   padding: 0.5rem;
   width: 140px;
   box-shadow: lightgray 3px 3px 5px;
   will-change: transform;
-  transition: 0.5s transform cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: var(--btn-transform);
 }
 
 .link > a:hover {
-  transform: scale(1.05);
+  transform: var(--btn-scale);
   filter: brightness(1.15);
 }

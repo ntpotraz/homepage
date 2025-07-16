@@ -4,15 +4,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-text-color: #213547;
+  --main-color: #FF894F;
+  --secondary-color: #77BEF0;
+  --btn-transform: 0.5s transform cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --btn-scale: scale(1.05);
+}
+
 html {
   scrollbar-gutter: stable;
 }
 
 #root {
-  text-align: center;
   background-color: white;
   height: 100%;
   width: 100%;
-  color: #213547;
+  color: var(--main-text-color);
 }
 
