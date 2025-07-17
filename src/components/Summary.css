@@ -9,7 +9,8 @@
 }
 
 .nathan {
-  width: min(40vw, 400px);
+  width: 100%;
+  max-width: max(280px, 48%);
   border-radius: 20px;
 }
 
@@ -47,7 +48,7 @@
 }
 
 .link > a {
-  color: inherit;
+  color: white;
   font-weight: bold;
   display: flex;
   align-items: center;

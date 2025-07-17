@@ -4,7 +4,7 @@ function HeaderBar() {
   
   return (
   <div className="header-bar">
-      <a href="https://ntpotraz.dev" className="website">ntpotraz.dev</a>
+      <a href="https://ntpotraz.dev" rel="noreferrer" className="website">ntpotraz.dev</a>
       <ul className="header-btns">
         <div className="contact-btn header-btn">
           <span>

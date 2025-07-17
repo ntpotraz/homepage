@@ -1,25 +1,23 @@
 .card {
   width: 100%;
-  max-width: 600px;
-  min-width: 0; /* Prevents forced overflow */
-  height: 100%;
   border-radius: 10px;
-  margin: auto;
-  box-shadow: lightgray 0 0 20px 10px;
+  max-width: 650px;
+  min-width: 350px;
+  flex-grow: 1;
+  border: 1px lightgray solid;
   will-change: transform;
-  transition: transform 100ms ease-out;
-  
+  transition: transform 100ms ease-out, box-shadow 500ms ease-in, border 500ms ease-out;
 
-  /* Remove this */
-  margin-bottom: 50px;
 }
 
 .card:hover {
   transform: scale(1.009);
+  border: 2px var(--main-color) solid;
+  box-shadow: darkgray 0 0 20px;
 }
 
 .imageContainer {
-  border-radius: 10px 10px 0 0;
+  border-radius: 9px 9px 0 0;
   overflow: hidden;
   height: 250px;
   width: 100%;
@@ -48,25 +46,36 @@
 }
 
 .techStack {
+  list-style: none;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   gap: 5px;
   font-size: 1.2rem;
   font-weight: bold;
+  padding: 0;
 }
 
-.cardBtns, .cardBtn {
+.techStack > li {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.cardBtns, .cardBtns > a {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .cardBtns {
+  flex-wrap: wrap;
   gap: 2rem;
   color: white;
 }
 
-.cardBtn {
+.cardBtns > a {
   gap: 0.3rem;
   color: inherit;
   font-weight: bold;
@@ -76,10 +85,11 @@
   padding: 0.5rem 1rem;
   box-shadow: darkgray 0 5px 9px;
   will-change: tranform;
-  transition: var(--btn-transform)
+  transition: var(--btn-transform);
+  min-width: 150px;
 }
 
-.cardBtn:hover {
+.cardBtns > a:hover {
   color: inherit;
   transform: var(--btn-scale);
   filter: brightness(1.10);

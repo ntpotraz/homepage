@@ -1,0 +1,19 @@
+.projects {
+  margin: 2rem;
+}
+
+.section {
+  margin: 0;
+  margin: 0 4rem;
+  padding-bottom: 1rem;
+  border-bottom: var(--main-color) 3px solid;
+}
+
+.projectItems {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+}
