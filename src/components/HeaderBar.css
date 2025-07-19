@@ -33,6 +33,18 @@
   gap: 0.6rem;
 }
 
+.header-btns > a {
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.header-btn, .header-btn:hover {
+  color: inherit;
+}
+
 .header-btn {
   padding: 0.4rem 0.6rem;
   border-radius: 0.5rem;
@@ -43,16 +55,23 @@
 
 .header-btn:hover {
   box-shadow: #e9e9e9 5px 5px 10px;
+  background-color: #f9f9f9;
 }
 
-.header-btn > span {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
+.header-btn > a {
   will-change: transform;
   transition: 0.5s transform cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.header-btn span:hover {
+.header-btn a:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  .header-btn {
+    box-shadow: lightgray 0 2px 5px;
+  }
+  .contact-text {
+    display: none;
+  }
 }

@@ -1,16 +1,20 @@
 import "./HeaderBar.css";
 
+import resume from "../assets/nathanpotrazresume.pdf"
+
 function HeaderBar() {
   return (
     <div className="header-bar">
       <a href="https://ntpotraz.dev" rel="noreferrer" className="website"> ntpotraz.dev </a>
       <ul className="header-btns">
-        <div className="contact-btn header-btn">
-          <span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" > <path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25a.85.85 0 1 1 .9-1.44L12 11l6.7-4.19a.85.85 0 1 1 .9 1.44" /> </svg>
-            Contact Me
-          </span>
-        </div>
+        <a href="mailto:ntpotraz@pm.me" className="contact-btn header-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" > <path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25a.85.85 0 1 1 .9-1.44L12 11l6.7-4.19a.85.85 0 1 1 .9 1.44" /> </svg>
+          <span className="contact-text">Contact Me</span>
+        </a>
+        <a href={resume} download className="header-btn resume-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 24 24"><path fill="currentColor" d="M5 20h14v-2H5zM19 9h-4V3H9v6H5l7 7z" /></svg>
+          Resume
+        </a>
       </ul>
     </div>
   );
