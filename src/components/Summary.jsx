@@ -7,7 +7,7 @@ const Summary = () => {
       <img className="nathan" src={nathan} alt="Me!" />
       <div className="summaryInfo">
         <h1>Hi, I'm Nathan!</h1>
-        <p className="sumText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab dolor aut, aliquid sapiente quae impedit quis neque eveniet laboriosam, amet illo, ut asperiores velit quia. Quidem tenetur temporibus necessitatibus vero?</p>
+        <p className="sumText">I'm an aspiring developer with a B.S in Computer Science. I love building things, both digitally and physically, and I'm always looking to utilize my passion in a way that can improve my life as well as others. Programming languages fascinate me learning new ones not only expands on my toolset, but something I look forward to doing as well. I am proficient in Python, Golang, and HTML+CSS+JavasScript and uzing the React.js library</p>
         <ul className="links">
           <li className="link">
             <a href="https://github.com/ntpotraz" rel="noreferrer" target="_blank">

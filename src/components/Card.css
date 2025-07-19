@@ -1,9 +1,7 @@
 .card {
-  width: 100%;
   border-radius: 10px;
-  max-width: 650px;
-  min-width: 350px;
   flex-grow: 1;
+  flex-basis: 420px;
   border: 1px lightgray solid;
   will-change: transform;
   transition: transform 100ms ease-out, box-shadow 500ms ease-in, border 500ms ease-out;
