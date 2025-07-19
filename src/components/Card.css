@@ -1,7 +1,7 @@
 .card {
   border-radius: 10px;
   flex-grow: 1;
-  flex-basis: 420px;
+  flex-basis: 450px;
   border: 1px lightgray solid;
   will-change: transform;
   transition: transform 100ms ease-out, box-shadow 500ms ease-in, border 500ms ease-out;
