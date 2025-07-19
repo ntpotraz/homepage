@@ -27,13 +27,13 @@ const GloomyMonsters = () => {
           </a>
         </li>
         <li>
-          Built a dynamic interface in React that automatically calculates and displays monster stats based on user-selected levels
+          Changing the Scenario Level updates the monsters in real time using my handwritten JSON file
         </li>
         <li>
-          Utilized a custom JSON file to manage all monster data, allowing for instant retrieval and display of information for any monster in the game and update in real time
+          Toggle on and off status effects and track the health for each monster in play, ditching the need for the cumbersome status and damage tokens that the physical game uses
         </li>
         <li>
-          Implemented interactive UI elements allowing users to easily track health changes and status effects for multiple monsters, eliminating the need for cumbersome physical tokens.
+          My friends and I saved hours of setup and token balancing using this application over the course of our multi-year campaign!
         </li>
       </ul>
       <div className="cardBtns">

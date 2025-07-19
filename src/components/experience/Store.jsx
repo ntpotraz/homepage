@@ -12,11 +12,11 @@ const Store = () => {
         <li></li>
       </ul>
       <ul>
-        <li>Engineered and fabricated over 100 custom-tuned competitive gaming controllers, achieving an average of 5/5 rating across 76 customer reviews</li>
-        <li>Performed intricate hardware modifications, including desoldering components and soldering onto custom-designed PCBs to enable advanced functionality like stick-profile tuning and button remapping</li>
-        <li>Delivered exceptional customer service and technical support, expertly guiding clients through complex tuning processes to tailor device performance to their unique preferences</li>
-        <li>Optimized device hardware through precision shell modifications, enabling users to achieve specific input values critical for high-level competitive play</li>
-        <li>Managed all aspects of the business, from sourcing components and manufacturing to client communication and quality assurance, consistently praised for product quality and responsiveness</li>
+        <li>Created over 100 custom built controllers for a highly competitive and high skill ceiling game that requires extremely precise controls</li>
+        <li>Maintained a perfect 5/5 rating with 76 reviews, with the quality of my product and customer service being the two most frequent reasons</li>
+        <li>Developed an expert level of soldering skill and customer service</li>
+        <li>Sourced all components and maintained my stock to meet demand</li>
+        <li>Maintained an open line of communication with customers after delivering in order to help improve my product and overall experience</li>
       </ul>
       <div className="cardBtns">
         <a href="https://www.etsy.com/shop/CadraWorks?ref=profile_header#reviews" rel="noreferrer" target="_blank">
