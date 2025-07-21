@@ -20,7 +20,7 @@ const Portfolio = () => {
         </li>
       </ul>
       <ul>
-        <li>This may come as a suprise, but this page that you were on was made by me!</li>
+        <li>This may come as a suprise, but this page that you are on was made by me!</li>
         <li>Utlizies React.js for modulability and to be able to expand easily as I gain more experience and complete more projects</li>
         <li>Very dynamic, reactively changes when resized. Looks good on every device</li>
         <li>All HTML, CSS, and Javascript written by me. No use of external libraries or third party React components</li>
