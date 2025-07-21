@@ -9,8 +9,9 @@
 }
 
 .nathan {
-  width: 100%;
   max-width: max(280px, 48%);
+  max-height: 85vh;
+  aspect-ratio: 1;
   border-radius: 20px;
 }
 
