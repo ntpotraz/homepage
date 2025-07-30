@@ -20,10 +20,10 @@ const CV = () => {
         </li>
       </ul>
       <ul>
-        <li>Created an easy to use sidebar for inputing information with collapsable components</li>
+        <li>Created an easy to use sidebar for inputting information with collapsible components</li>
         <li>Preview automatically formats and adds and removes elements dynamically based on the information that has been added</li>
         <li>Live preview that updates in realtime</li>
-        <li>Toggable jobs. Input multiple jobs and toggle them on and off from showing in the preview</li>
+        <li>Toggleable jobs. Input multiple jobs and toggle them on and off from showing in the preview</li>
       </ul>
       <div className="cardBtns">
         <a href="https://cv.ntpotraz.dev" rel="noreferrer" target="_blank">
