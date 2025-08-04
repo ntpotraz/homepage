@@ -3,14 +3,12 @@
   flex-grow: 1;
   flex-basis: 450px;
   border: 1px lightgray solid;
-  will-change: transform;
-  transition: transform 100ms ease-out, box-shadow 500ms ease-in, border 500ms ease-out;
-
+  will-change: transform, box-shadow, border;
+  transition: box-shadow 500ms ease-in, border 500ms ease-out;
 }
 
 .card:hover {
-  transform: scale(1.009);
-  border: 2px var(--main-color) solid;
+  border: 1px var(--main-color) solid;
   box-shadow: darkgray 0 0 20px;
 }
 
