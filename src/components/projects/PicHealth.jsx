@@ -36,11 +36,11 @@ const PicHealth = () => {
         </li>
       </ul>
       <ul>
-        <li>Led 4 other developers to build a cross-platform community-driven app to meet the requirements of our sponsors </li>
-        <li>Primary communicator between my dev team and the research team that was sponsoring our project. I would break down the technical side of development for the researchers to understand, and would translate their requests to how they would be implemented in the software </li>
-        <li>My team utilized the Google Calendar API to have a persistent in-app calendar without the need of a database </li>
-        <li>With the help of one of my team members built the skeleton of the app, and the design remained the same throughout the entire building of the application</li>
-        <li>Instructed my team on how to utilize git, how we should maintain branches, and taught a team member from scratch who had no prior experience with git</li>
+        <li><strong>Led 4 other developers</strong> to build a <strong>cross-platform community-driven app</strong> to meet the requirements of our sponsors </li>
+        <li><strong>Primary communicator</strong> between my dev team and the research team that was sponsoring our project. I would break down the technical side of development for the researchers to understand, and would translate their requests to how they would be implemented in the software </li>
+        <li>My team utilized the Google Calendar API to have a <strong>persistent in-app calendar</strong> without the need of a database</li>
+        <li>With the help of one of my team members <strong>built the skeleton of the app</strong>, and the design remained the same throughout the entire building of the application</li>
+        <li>Instructed my team on how to utilize git, how we should maintain branches, and <strong>taught a team member from scratch who had no prior experience with git</strong></li>
       </ul>
       <div className="cardBtns">
         <a href="https://ntpotraz.github.io/PIC-Health-App/" rel="noreferrer" target="_blank">

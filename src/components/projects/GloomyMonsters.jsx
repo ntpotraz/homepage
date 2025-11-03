@@ -27,13 +27,13 @@ const GloomyMonsters = () => {
           </a>
         </li>
         <li>
-          Changing the Scenario Level updates the monsters in real time using my handwritten JSON file
+          Changing the Scenario Level <strong>updates the monsters in real time</strong> using my handwritten JSON file
         </li>
         <li>
-          Toggle on and off status effects and track the health for each monster in play, ditching the need for the cumbersome status and damage tokens that the physical game uses
+          Toggle on and off status effects and track the health for each monster in play, <strong>ditching the need for the cumbersome status and damage tokens</strong> that the physical game uses
         </li>
         <li>
-          My friends and I saved hours of setup and token balancing using this application over the course of our multi-year campaign!
+          My friends and I <strong>saved hours of setup</strong> and token balancing using this application over the course of our multi-year campaign!
         </li>
       </ul>
       <div className="cardBtns">
