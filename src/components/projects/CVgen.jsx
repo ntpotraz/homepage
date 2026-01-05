@@ -2,7 +2,7 @@ import Card from "../Card.jsx"
 
 import cvPic from "../../assets/cv.png";
 
-const Cv = () => {
+const CVgen = () => {
   return (
     <Card title="CV Web App" image={cvPic}>
       <ul className="techStack">
@@ -43,5 +43,5 @@ const Cv = () => {
   )
 }
 
-export default Cv;
+export default CVgen;
 

@@ -2,7 +2,7 @@ import "./Projects.css";
 
 import PicHealth from "./projects/PicHealth.jsx";
 import GloomyMonsters from "./projects/GloomyMonsters.jsx";
-import Cv from "./projects/Cv.jsx";
+import CVgen from "./projects/CVgen.jsx";
 import Portfolio from "./projects/Portfolio.jsx";
 import Devlog from "./projects/Devlog.jsx";
 import Translator from "./projects/Translator.jsx";
@@ -20,7 +20,7 @@ const Projects = () => {
         <Devlog />
         <PicHealth />
         <GloomyMonsters />
-        <Cv />
+        <CVgen />
         <Translator />
         <Compiler />
         <Networking />
