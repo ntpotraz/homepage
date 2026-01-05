@@ -57,6 +57,11 @@
   justify-content: center;
   align-items: center;
   gap: 5px;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.8rem;
 }
 
 .cardBtns, .cardBtns > a {
@@ -86,6 +91,31 @@
 }
 
 .cardBtns > a:hover {
+  color: inherit;
+  transform: var(--btn-scale);
+  filter: brightness(1.10);
+}
+
+
+.cardBtns > .portfolioBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  color: inherit;
+  font-weight: bold;
+  font-size: 1.4rem;
+  background-color: var(--secondary-color);
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+  box-shadow: darkgray 0 5px 9px;
+  will-change: tranform;
+  transition: var(--btn-transform);
+  min-width: 150px;
+  cursor:pointer;
+}
+
+.cardBtns > .portfolioBtn:hover {
   color: inherit;
   transform: var(--btn-scale);
   filter: brightness(1.10);
