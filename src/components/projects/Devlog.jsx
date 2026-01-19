@@ -48,7 +48,7 @@ const Devlog = () => {
         </li>
       </ul>
       <ul>
-        <li> A retro terminal inspired blog with a focus on <strong>quickly making and sharing</strong> markdown posts. Influences from some of my favorite sci-fi worlds such as Blade Runner and Cyberpunk</li>
+        <li> A retro terminal inspired blog with a focus on <strong>quickly making and sharing</strong> markdown posts. Influences from some of my favorite sci-fi worlds such as Fallout, Blade Runner, and Cyberpunk</li>
         <li> <strong>Custom Go server </strong>for serving the webpages and handling database requests. I <strong>implemented my own API</strong> for the front end to send and receive entries, all handled by my Go server</li>
         <li> Instantaneously <strong>create and edit</strong> log entries. The combination of SQLite and the Go backend allows for super quick database reads and writes</li>
         <li> Utilizes Clerk for <strong>user authorization</strong>. Users can use SSO login with Github and Google or the classic email/password</li>
